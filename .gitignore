@@ -1,0 +1,4 @@
+# Except for the src folder and README.md file
+!README.md
+*bin/
+*.vscode/
