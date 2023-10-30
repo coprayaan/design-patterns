@@ -1,12 +1,12 @@
 package singleton;
 
 public class DbConnectionLazy{
-    private static DbConnection instance = null;
-    private DbConnection(){}
+    private static DbConnectionLazy instance = null;
+    private DbConnectionLazy(){}
 
-    public static DbConnection getInstance(){
+    public static DbConnectionLazy getInstance(){
         if(instance == null){
-            instance = new DbConnection();
+            instance = new DbConnectionLazy();
         }
         return instance;
     }
