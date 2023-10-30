@@ -7,8 +7,3 @@ public class PdfDocumentReader implements DocumentReader {
     }
 }
 
-public class PdfDocumentReaderFactory implements DocumentReaderFactory {
-    public DocumentReader createDocumentReader() {
-        return new PdfDocumentReader();
-    }
-}
