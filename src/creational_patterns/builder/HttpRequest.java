@@ -1,4 +1,4 @@
-package builder;
+package creational_patterns.builder;
 
 import java.util.Map;
 

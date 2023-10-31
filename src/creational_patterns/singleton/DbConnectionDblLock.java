@@ -1,4 +1,4 @@
-package singleton;
+package creational_patterns.singleton;
 /*
  * GitHub Copilot: The `DbConnectionDblLock` class uses double-checked locking to ensure that only one instance of the class is created. This approach is more efficient than using a synchronized method for the entire `getInstance()` method, as it avoids the overhead of acquiring and releasing the lock every time the method is called. 
  * In the double-checked locking approach, the `if(instance == null)` check is performed outside the synchronized block to avoid the overhead of acquiring the lock if the instance has already been created. If the instance is null, then the synchronized block is entered, and another null check is performed inside the block to ensure that the instance has not been created by another thread while waiting to acquire the lock. If the instance is still null, then it is created and returned.

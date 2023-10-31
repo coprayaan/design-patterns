@@ -1,4 +1,4 @@
-package abstract_factory;
+package creational_patterns.abstract_factory;
 
 public class Client {
     public static void main(String[] args) {
